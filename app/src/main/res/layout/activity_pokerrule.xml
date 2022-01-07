@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pokerhandranking"
+    tools:context=".PokerRuleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="5 cards appear and you can keep any amount of cards and the other cards will be shuffled. The chips you bet will be multiplied based on the final cards  "
+        android:textSize="18dp"
+        android:layout_marginTop="84dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <TextView
+        android:id="@+id/royalflush"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="x250"
+        android:textSize="20dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginRight="240dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="x25"
+        android:textSize="20dp"
+        android:textColor="@color/purple_200"
+        android:layout_marginTop="208dp"
+        android:layout_marginRight="240dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="x20"
+        android:textSize="20dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginRight="220dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="x10"
+        android:textSize="20dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginRight="220dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="x4"
+        android:textSize="20dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginRight="180dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="x3"
+        android:textSize="20dp"
+        android:layout_marginTop="458dp"
+        android:layout_marginRight="180dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="x1"
+        android:textSize="20dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginRight="230dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="x1"
+        android:textSize="20dp"
+        android:layout_marginTop="564dp"
+        android:layout_marginRight="185dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="x0"
+        android:textSize="20dp"
+        android:layout_marginTop="642dp"
+        android:layout_marginRight="225dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="/No Pair"
+        android:textSize="20dp"
+        android:layout_marginTop="678dp"
+        android:layout_marginRight="215dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:text="Back"
+        android:background="#00ff00"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
