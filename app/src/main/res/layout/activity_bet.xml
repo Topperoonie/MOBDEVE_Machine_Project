@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/poker"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:textAlignment="center"
+        android:text="Welcome To The Casino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:textSize="24dp"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:textAlignment="center"
+        android:text="Place your chips to bet"
+        android:textColor="@color/purple_500"
+        android:id="@+id/textprofileheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/textusername"/>
+
+    <ImageView
+        android:id="@+id/imageprofile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/pokerguytwo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="2dp"
+        app:layout_constraintTop_toBottomOf="@id/textprofileheader"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/casinochipsten"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="2dp"/>
+
+            <Button
+                android:id="@+id/textMoney"
+                android:text="10"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/casinochipshundred"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="2dp"/>
+
+            <Button
+                android:id="@+id/textFatigue"
+                android:text="100"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/casinochipsthousand"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="2dp"/>
+
+            <Button
+                android:id="@+id/textHunger"
+                android:text="1000"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:text="Back"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
