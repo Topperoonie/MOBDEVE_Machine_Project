@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Stephen Huit/Desktop/Work Stuff/MOBDEVE2/MOBDEVE_Machine_Project/app/src/main/res/layout/activity_bet.xml" value="0.264" />
+        <entry key="..\:/Users/Stephen Huit/Desktop/Work Stuff/MOBDEVE2/MOBDEVE_Machine_Project/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Stephen Huit/Desktop/Work Stuff/MOBDEVE2/MOBDEVE_Machine_Project/app/src/main/res/layout/activity_poker_rules.xml" value="0.1" />
+        <entry key="..\:/Users/Stephen Huit/Desktop/Work Stuff/MOBDEVE2/MOBDEVE_Machine_Project/app/src/main/res/layout/activity_pokerrule.xml" value="0.1" />
+        <entry key="..\:/Users/Stephen Huit/Desktop/Work Stuff/MOBDEVE2/MOBDEVE_Machine_Project/app/src/main/res/layout/activity_work.xml" value="0.176" />
         <entry key="..\:/Users/Topper/AndroidStudioProjects/mobdevemp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.55625" />
-        <entry key="..\:/Users/Topper/AndroidStudioProjects/mobdevemp/app/src/main/res/layout/activity_bet.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Topper/AndroidStudioProjects/mobdevemp/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/Topper/AndroidStudioProjects/mobdevemp/app/src/main/res/layout/activity_poker.xml" value="0.5401041666666667" />
-        <entry key="..\:/Users/Topper/AndroidStudioProjects/mobdevemp/app/src/main/res/layout/activity_pokerrule.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Topper/AndroidStudioProjects/mobdevemp/app/src/main/res/layout/activity_work.xml" value="0.5541666666666667" />
       </map>
     </option>
   </component>

@@ -62,7 +62,7 @@
                 android:padding="2dp"/>
 
             <Button
-                android:id="@+id/textMoney"
+                android:id="@+id/btn_bet_10"
                 android:text="10"
                 android:layout_width="0dp"
                 android:layout_height="40dp"
@@ -87,7 +87,7 @@
                 android:padding="2dp"/>
 
             <Button
-                android:id="@+id/textFatigue"
+                android:id="@+id/btn_bet_100"
                 android:text="100"
                 android:layout_width="0dp"
                 android:layout_height="40dp"
@@ -112,7 +112,7 @@
                 android:padding="2dp"/>
 
             <Button
-                android:id="@+id/textHunger"
+                android:id="@+id/btn_bet_1000"
                 android:text="1000"
                 android:layout_width="0dp"
                 android:layout_height="40dp"
@@ -129,6 +129,7 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/btn_back"
                 android:text="Back"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
