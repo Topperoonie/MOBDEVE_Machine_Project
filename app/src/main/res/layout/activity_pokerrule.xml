@@ -15,7 +15,7 @@
         android:text="5 cards appear and you can keep any amount of cards and the other cards will be shuffled. The chips you bet will be multiplied based on the final cards  "
         android:textSize="18dp"
         android:layout_marginTop="84dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         />
 
     <TextView
@@ -27,7 +27,7 @@
         android:textSize="20dp"
         android:layout_marginTop="148dp"
         android:layout_marginRight="240dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         />
 
     <TextView
@@ -36,7 +36,7 @@
         android:textAlignment="center"
         android:text="x25"
         android:textSize="20dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         android:layout_marginTop="208dp"
         android:layout_marginRight="240dp"
         />
@@ -49,7 +49,7 @@
         android:textSize="20dp"
         android:layout_marginTop="268dp"
         android:layout_marginRight="220dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         />
 
     <TextView
@@ -60,7 +60,7 @@
         android:textSize="20dp"
         android:layout_marginTop="328dp"
         android:layout_marginRight="220dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         />
 
     <TextView
@@ -71,7 +71,7 @@
         android:textSize="20dp"
         android:layout_marginTop="388dp"
         android:layout_marginRight="180dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         />
 
     <TextView
@@ -82,7 +82,7 @@
         android:textSize="20dp"
         android:layout_marginTop="458dp"
         android:layout_marginRight="180dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         />
 
     <TextView
@@ -93,7 +93,7 @@
         android:textSize="20dp"
         android:layout_marginTop="514dp"
         android:layout_marginRight="230dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         />
 
     <TextView
@@ -104,7 +104,7 @@
         android:textSize="20dp"
         android:layout_marginTop="564dp"
         android:layout_marginRight="185dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         />
 
     <TextView
@@ -115,7 +115,7 @@
         android:textSize="20dp"
         android:layout_marginTop="642dp"
         android:layout_marginRight="225dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         />
 
     <TextView
@@ -126,7 +126,7 @@
         android:textSize="20dp"
         android:layout_marginTop="678dp"
         android:layout_marginRight="215dp"
-        android:textColor="@color/purple_200"
+        android:textColor="#ff0000"
         />
 
     <Button
@@ -135,7 +135,7 @@
         android:layout_height="40dp"
         android:layout_weight="1"
         android:text="Back"
-        android:background="#00ff00"
+        android:backgroundTint="#ff0000"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="155dp"
         tools:layout_editor_absoluteY="691dp" />

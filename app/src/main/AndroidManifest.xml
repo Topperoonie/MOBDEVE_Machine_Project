@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobdevemp">
         <activity
+            android:name=".DoubleNothingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PokerMain"
+            android:exported="false" />
+        <activity
             android:name=".PokerRuleActivity"
             android:exported="false" />
         <activity
