@@ -8,8 +8,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
+        android:id="@+id/tv_winText"
         android:textAlignment="center"
-        android:text="Fortune Doesn't Favor Fools"
+        android:text="Fortune Doesn't Favor Fools!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#ffd000"
@@ -19,9 +20,9 @@
 
     <TextView
         android:textAlignment="center"
-        android:text="Poker Start"
+        android:text="Money: 0"
         android:textColor="#ffd000"
-        android:id="@+id/textprofileheader"
+        android:id="@+id/tv_money"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24dp"
@@ -54,6 +55,7 @@
             android:gravity="center">
 
             <ImageView
+                android:id="@+id/iv_card_1"
                 android:layout_width="70dp"
                 android:layout_height="150dp"
                 android:src="@drawable/pcjoker"
@@ -63,6 +65,7 @@
                 android:padding="2dp"/>
 
             <ImageView
+                android:id="@+id/iv_card_2"
                 android:layout_width="70dp"
                 android:layout_height="150dp"
                 android:src="@drawable/pcjoker"
@@ -72,6 +75,7 @@
                 android:padding="2dp"/>
 
             <ImageView
+                android:id="@+id/iv_card_3"
                 android:layout_width="70dp"
                 android:layout_height="150dp"
                 android:src="@drawable/pcjoker"
@@ -80,6 +84,7 @@
                 android:layout_marginRight="5dp"
                 android:padding="2dp"/>
             <ImageView
+                android:id="@+id/iv_card_4"
                 android:layout_width="70dp"
                 android:layout_height="150dp"
                 android:src="@drawable/pcjoker"
@@ -88,6 +93,7 @@
                 android:layout_marginRight="5dp"
                 android:padding="2dp"/>
             <ImageView
+                android:id="@+id/iv_card_5"
                 android:layout_width="70dp"
                 android:layout_height="150dp"
                 android:src="@drawable/pcjoker"
@@ -118,8 +124,23 @@
                 android:gravity="center"/>
 
             <Button
-                android:id="@+id/btn_play"
+                android:id="@+id/btn_deal"
                 android:text="Deal"
+                android:enabled="true"
+                android:visibility="visible"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="#ffd000"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/btn_accept_hand"
+                android:text="Accept"
+                android:enabled="true"
+                android:visibility="visible"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"

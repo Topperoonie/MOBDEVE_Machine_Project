@@ -68,8 +68,6 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Log.i(TAG, "Exiting...Have a good day!")
-        finish()
-        System.exit(0)
     }
 
 }
